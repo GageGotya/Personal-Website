@@ -5,7 +5,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from '@/components/Navbar';
 import ParticleBackground from '@/components/ParticleBackground';
-import ContactForm from '@/components/ContactForm';
 
 export default function Home() {
   useEffect(() => {
@@ -167,7 +166,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center mb-12" data-aos="fade-up">Get In Touch</h2>
             <div className="max-w-3xl mx-auto">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                 {[
                   {
                     name: 'GitHub',
