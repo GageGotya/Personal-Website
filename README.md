@@ -1,77 +1,82 @@
 # Gage Ayala's Personal Portfolio
 
-A modern, responsive personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
+A modern, responsive personal portfolio website showcasing my expertise in cybersecurity, technical skills, and professional projects. Built with Next.js, TypeScript, and Tailwind CSS.
 
-## Features
-
-- Modern, responsive design with Tailwind CSS
-- Interactive particle background animation
-- Smooth scroll animations using AOS library
-- Comprehensive security headers and CSP configuration
-- Sections for About, Skills, Projects, and Contact
-- Social media integration
-- Optimized for performance and SEO
+## Live Website
+Visit my portfolio at: [www.gageayala.com](https://www.gageayala.com)
 
 ## Tech Stack
 
-- Next.js 14
+- Next.js 14 (React Framework)
 - TypeScript
 - Tailwind CSS
 - AOS (Animate On Scroll)
 - React Particles
 
-## Getting Started
+## Features
 
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+- Modern, responsive design
+- Interactive particle background animation
+- Smooth scroll animations
+- Dark/Light mode support
+- Comprehensive security headers and CSP configuration
+- Sections for About, Skills, Projects, and Contact
+- Social media integration
+- Optimized for performance and SEO
 
 ## Deployment
 
-This website is configured for deployment on Vercel. To deploy:
+This website is continuously deployed through Vercel:
 
-1. Push your code to GitHub
-2. Connect your GitHub repository to Vercel
-3. Vercel will automatically detect Next.js and configure the build settings
-4. Your site will be deployed with:
-   - Automatic HTTPS
-   - Edge CDN
-   - Continuous deployment on push
-
-### Custom Domain Setup
-
-1. Purchase your domain
-2. Add domain in Vercel dashboard
-3. Configure DNS settings as per Vercel's instructions
-4. Wait for DNS propagation (usually 24-48 hours)
-
-## Development
-
-- `npm run dev` - Start development server
-- `npm run build` - Create production build
-- `npm run start` - Start production server
-- `npm run lint` - Run linting
-- `npm run prod` - Build and start production server
+- Every push to the `master` branch triggers an automatic deployment
+- Vercel handles:
+  - SSL/HTTPS certification
+  - Edge CDN distribution
+  - Automatic builds and deployments
+  - Production optimization
 
 ## Security Features
 
 - Content Security Policy (CSP)
 - HTTP Security Headers
 - XSS Protection
-- HTTPS-only in production
+- HTTPS-only
 - Strict CORS policy
+
+## Local Development
+
+While the site is always deployed on Vercel, you can run it locally for development:
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+## Repository Structure
+
+This is a public repository that serves as both a portfolio piece and a reference for other developers. Feel free to:
+- Study the code structure
+- Learn from the implementation
+- Fork the repository for your own portfolio
+- Submit issues or suggestions
 
 ## Contact
 
-For any inquiries, reach out to Gage at gageatx95@gmail.com
+For any inquiries, reach out to me at:
+- Email: gageatx95@gmail.com
+- LinkedIn: [Gage Ayala](https://www.linkedin.com/in/gage-ayala-0207b42ab/)
+- GitHub: [@GageGotya](https://github.com/GageGotya)
+- TryHackMe: [GageGotya](https://tryhackme.com/p/GageGotya)
 
 ## License
 
-MIT License - feel free to use this template for your own portfolio! 
+MIT License - Feel free to use this template for your own portfolio! 

@@ -7,6 +7,15 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Gage Ayala - Cyber Security Specialist",
   description: "Personal portfolio showcasing my expertise in cybersecurity, technical skills, and professional projects",
+  metadataBase: new URL('https://www.gageayala.com'),
+  openGraph: {
+    title: 'Gage Ayala - Cyber Security Specialist',
+    description: 'Personal portfolio showcasing my expertise in cybersecurity, technical skills, and professional projects',
+    url: 'https://www.gageayala.com',
+    siteName: 'Gage Ayala',
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
