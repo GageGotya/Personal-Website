@@ -162,7 +162,7 @@ export default function Home() {
                     </div>
                     <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
                       <a 
-                        href="https://github.com/GageGotya/Project-G.E.N.G.A.R" 
+                        href="https://github.com/GageGotya/G.E.N.G.A.R-AI-Assistant" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline"
