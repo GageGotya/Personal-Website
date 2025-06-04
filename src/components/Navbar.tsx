@@ -36,6 +36,13 @@ const Navbar = () => {
                   {item.name}
                 </Link>
               ))}
+              <a
+                href="/resume.pdf"
+                className="px-3 py-2 rounded-md text-sm font-medium bg-blue-600 text-white hover:bg-blue-700 transition-colors"
+                download
+              >
+                Resume
+              </a>
             </div>
           </div>
 
@@ -74,6 +81,14 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
+            <a
+              href="/resume.pdf"
+              className="block px-3 py-2 rounded-md text-base font-medium bg-blue-600 text-white hover:bg-blue-700"
+              download
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Resume
+            </a>
           </div>
         </div>
       )}
