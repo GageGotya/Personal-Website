@@ -14,87 +14,141 @@ export default function CTFPractice() {
     });
   }, []);
 
-  const [selectedCategory, setSelectedCategory] = useState('web');
+  const [selectedCategory, setSelectedCategory] = useState('trivia');
 
   const challenges = {
-    web: [
+    trivia: [
       {
-        title: 'Hidden in Plain Sight',
+        title: 'Web Security Basics',
         difficulty: 'Easy',
-        description: 'Can you find the hidden flag in the source code of this page?',
-        hint: 'Sometimes developers leave sensitive information in HTML comments...',
-        points: 10,
-        flag: 'FLAG{hidden_in_plain_sight}',
-        category: 'Web'
+        description: 'What port does HTTPS use?',
+        hint: 'This is the standard port for secure web traffic.',
+        points: 25,
+        flag: '443',
+        category: 'Trivia'
       },
       {
-        title: 'Cookie Monster',
+        title: 'Malware Types',
+        difficulty: 'Easy',
+        description: 'What kind of malware demands payment?',
+        hint: 'Think about recent cyber attacks on hospitals and businesses.',
+        points: 25,
+        flag: 'Ransomware',
+        category: 'Trivia'
+      },
+      {
+        title: 'Network Services',
+        difficulty: 'Easy',
+        description: 'What port does DNS use?',
+        hint: 'This is the standard port for Domain Name System queries.',
+        points: 25,
+        flag: '53',
+        category: 'Trivia'
+      },
+      {
+        title: 'Security Tools',
+        difficulty: 'Easy',
+        description: 'What tool is used to map open ports?',
+        hint: 'This popular tool name starts with "N".',
+        points: 25,
+        flag: 'Nmap',
+        category: 'Trivia'
+      },
+      {
+        title: 'Linux Security',
         difficulty: 'Medium',
-        description: 'The admin cookie holds the key. Can you figure out how to decode it?',
-        hint: 'Base64 encoding is commonly used for cookie values...',
-        points: 20,
-        flag: 'FLAG{cookie_monster_strikes_again}',
-        category: 'Web'
+        description: 'What file stores Linux user passwords?',
+        hint: 'This file is in the /etc directory and has a spooky name.',
+        points: 25,
+        flag: '/etc/shadow',
+        category: 'Trivia'
       }
     ],
     crypto: [
       {
-        title: 'Caesar\'s Secret',
+        title: 'Hash of the River',
         difficulty: 'Easy',
-        description: 'Decrypt this ancient message: "SYNT{pnrfne_pvcure_vf_jrnx}"',
-        hint: 'Julius Caesar used a simple shift cipher...',
-        points: 10,
-        flag: 'FLAG{caesar_cipher_is_weak}',
-        category: 'Crypto'
+        description: 'A data packet was intercepted mid-transmission. The payload below appears to contain a name. Can you crack it?\n\ncml2ZXJiYXRz',
+        hint: 'This looks like base64 encoding. Try an online decoder!',
+        points: 100,
+        flag: 'riverbats',
+        category: 'Cryptography'
       },
       {
-        title: 'Hash Cracker',
+        title: 'Signal in the Static',
         difficulty: 'Medium',
-        description: 'Crack this MD5 hash: 5f4dcc3b5aa765d61d8327deb882cf99',
-        hint: 'This is a commonly used password...',
-        points: 20,
-        flag: 'FLAG{password}',
-        category: 'Crypto'
+        description: 'You intercepted a weak signal from a satellite. This looks encoded, not encrypted. Can you decode the message?\n\nMFWGSZLOONQXEZLSMVQWY===',
+        hint: 'This is base32 encoded. Look for an online base32 decoder.',
+        points: 100,
+        flag: 'aliensarereal',
+        category: 'Cryptography'
+      },
+      {
+        title: "Caesar's Favorite Movie",
+        difficulty: 'Easy',
+        description: 'The emperor encoded this text with a classic cipher. Shift it back to uncover a dystopian cult classic.\n\nCqtCqn',
+        hint: 'Julius Caesar used a simple shift cipher. Try different shifts!',
+        points: 100,
+        flag: 'MadMax',
+        category: 'Cryptography'
+      },
+      {
+        title: "The Zookeeper's Secret",
+        difficulty: 'Medium',
+        description: 'An encrypted message was found scratched into the side of a crate labeled "Primate Intelligence Division." The zookeeper says it is just a name. Can you decrypt it?\n\n50 65 6e 67 75 69 6e 73',
+        hint: 'These look like hexadecimal values. Try converting them to ASCII.',
+        points: 100,
+        flag: 'Penguins',
+        category: 'Cryptography'
       }
     ],
     osint: [
       {
-        title: 'Digital Footprint',
-        difficulty: 'Easy',
-        description: 'Find my first GitHub repository. The flag is in the initial commit message.',
-        hint: 'GitHub profile URLs follow a standard format...',
-        points: 15,
-        flag: 'FLAG{first_commit_found}',
+        title: 'Ransomware Investigation',
+        difficulty: 'Medium',
+        description: 'You will be finding intel on ransomware groups behind healthcare based attacks. Which healthcare company was attacked by BlackCat/ALPHV?',
+        hint: 'Look for recent news articles about BlackCat/ALPHV ransomware attacks on healthcare companies.',
+        points: 150,
+        flag: 'Change Healthcare',
         category: 'OSINT'
       },
       {
-        title: 'Social Sleuth',
-        difficulty: 'Medium',
-        description: 'Find my LinkedIn profile and locate the flag hidden in plain sight.',
-        hint: 'Check the background image metadata...',
-        points: 25,
-        flag: 'FLAG{linkedin_sleuth}',
+        title: 'MITRE ATT&CK Knowledge',
+        difficulty: 'Hard',
+        description: 'What MITRE ATT&CK Framework ID is used in the technique phishing for information?',
+        hint: 'Check the MITRE ATT&CK Framework website under Initial Access techniques.',
+        points: 150,
+        flag: 'T1598',
+        category: 'OSINT'
+      },
+      {
+        title: 'Crypto Transaction Analysis',
+        difficulty: 'Hard',
+        description: 'Reference this Ethereum transaction hash: 0x7fda3c06d2eec7c3d26c1b373cc3f1e648b51556fd7e95944d31861758936626\n\nWhat is the wallet address of the sender?',
+        hint: 'Use a blockchain explorer like Etherscan to look up the transaction.',
+        points: 150,
+        flag: '0x7dCC00d0Da47e6982672CB1C2481A6943737af45',
         category: 'OSINT'
       }
     ],
-    forensics: [
+    web: [
       {
-        title: 'Metadata Mystery',
+        title: 'HTTP Status Codes',
         difficulty: 'Easy',
-        description: 'Download the image and find the flag hidden in its metadata.',
-        hint: 'ExifTool is your friend...',
-        points: 15,
-        flag: 'FLAG{exif_expert}',
-        category: 'Forensics'
+        description: 'What HTTP response code means "Forbidden"?',
+        hint: 'This is a common status code when access is denied.',
+        points: 25,
+        flag: '403',
+        category: 'Web'
       },
       {
-        title: 'Packet Detective',
-        difficulty: 'Hard',
-        description: 'Analyze the network capture file to find the exfiltrated flag.',
-        hint: 'Look for unusual DNS queries...',
-        points: 30,
-        flag: 'FLAG{packet_master}',
-        category: 'Forensics'
+        title: 'Web Security Protocols',
+        difficulty: 'Easy',
+        description: 'Which protocol secures websites with encryption?',
+        hint: 'This protocol is indicated by the padlock in your browser.',
+        points: 25,
+        flag: 'HTTPS',
+        category: 'Web'
       }
     ]
   };
@@ -160,7 +214,7 @@ export default function CTFPractice() {
                     </span>
                   </div>
                 </div>
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                <p className="text-gray-600 dark:text-gray-300 mb-4 whitespace-pre-line">
                   {challenge.description}
                 </p>
                 <div className="space-y-4">
