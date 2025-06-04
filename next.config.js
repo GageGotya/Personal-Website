@@ -42,3 +42,5 @@ const nextConfig = {
   // Enable React strict mode for better error catching
   reactStrictMode: true,
 } 
+
+module.exports = nextConfig; 

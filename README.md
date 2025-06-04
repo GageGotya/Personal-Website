@@ -5,6 +5,29 @@ A modern, responsive personal portfolio website showcasing my expertise in cyber
 ## Live Website
 Visit my portfolio at: [www.gageayala.com](https://www.gageayala.com)
 
+## Featured Projects
+
+### EZPost (Coming Soon)
+An AI-powered social media management platform helping small and medium-sized businesses automate and optimize their social media presence across multiple platforms.
+- Tech Stack: Next.js 14, TypeScript, OpenAI, Supabase, Vercel
+- Status: In Development
+- [GitHub Repository](https://github.com/GageGotya/EZPost)
+
+### Project G.E.N.G.A.R
+Gage's Enhanced Next-Gen AI Responder - An advanced AI assistant running on a dedicated Mini PC with Ubuntu Server, designed for security operations and automation.
+- Tech Stack: Python, Ubuntu Server, AI/ML, Security Tools
+- [GitHub Repository](https://github.com/GageGotya/G.E.N.G.A.R-AI-Assistant)
+
+### Cyber Scripts Collection
+A comprehensive collection of cybersecurity scripts for automation, reconnaissance, and system tasks.
+- Tech Stack: Python, Bash, PowerShell
+- [GitHub Repository](https://github.com/GageGotya/Cyber-Scripts)
+
+### CTF Challenge Solutions
+A collection of Capture The Flag (CTF) challenge solutions, demonstrating practical offensive security skills.
+- Focus Areas: Web Exploitation, Privilege Escalation, OSINT, Scripting
+- [GitHub Repository](https://github.com/GageGotya/CTF-Writeups)
+
 ## Tech Stack
 
 - Next.js 14 (React Framework)
@@ -63,11 +86,20 @@ npm start
 
 ## Repository Structure
 
-This is a public repository that serves as both a portfolio piece and a reference for other developers. Feel free to:
-- Study the code structure
-- Learn from the implementation
-- Fork the repository for your own portfolio
-- Submit issues or suggestions
+```
+├── src/
+│   ├── app/
+│   │   ├── page.tsx      # Main page component
+│   │   ├── layout.tsx    # Root layout
+│   │   └── globals.css   # Global styles
+│   └── components/
+│       ├── Navbar.tsx    # Navigation component
+│       └── ParticleBackground.tsx # Interactive background
+├── public/              # Static assets
+├── next.config.js      # Next.js configuration
+├── tailwind.config.js  # Tailwind CSS configuration
+└── package.json        # Dependencies and scripts
+```
 
 ## Contact
 
