@@ -55,22 +55,16 @@ export default function Home() {
                 <h3 className="text-2xl font-semibold mb-4">On a Professional Note</h3>
                 <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300">
                   <p>
-                    As the <strong>Chief Information Officer (CIO) at Black Tower Consulting Group</strong>, I lead strategic cybersecurity initiatives and oversee enterprise security infrastructure. My role encompasses executive-level decision-making for security architecture, risk management, and technology investments, driving organizational resilience against evolving cyber threats.
+                    As the <strong>Chief Information Officer (CIO) at Black Tower Consulting Group</strong>, I lead security strategy and execution across enterprise environments—owning security architecture, risk management, and program delivery. I partner with business leadership to align controls to measurable risk reduction and enable secure growth.
                   </p>
                   <p>
-                    My expertise spans comprehensive offensive and defensive security operations, with specialized focus on <strong>penetration testing, red team operations, and ethical hacking</strong>. I've engineered secure enterprise environments using advanced network segmentation, Next-Gen firewall deployment, and Active Directory hardening, consistently achieving top-tier security postures for client organizations.
+                    My hands-on work spans offensive and defensive security: <strong>penetration testing, red-team/adversary emulation, vulnerability management, incident response readiness, and hardening of cloud and on‑prem infrastructure</strong>. I design segmented network architectures, implement Zero‑Trust‑aligned controls, and strengthen identity platforms with <strong>Active Directory</strong> and privilege governance.
                   </p>
                   <p>
-                    I maintain active engagement in the cybersecurity community as <strong>President of the CyberSec Club at Austin Community College</strong> and Captain of the CTF team, where I mentor emerging security professionals and lead competitive cybersecurity initiatives. My competitive achievements include consistent top 10% performance in monthly CTF competitions and participation in high-stakes events like the TryHackMe Hackfinity Battle.
+                    Core technical toolkit and domains: <strong>AWS</strong> cloud security (architecture, IAM, network segmentation, monitoring), <strong>Python</strong> (security automation and scripting), <strong>Burp Suite</strong> (web application testing), <strong>Metasploit</strong> (adversary simulation), <strong>Nessus</strong> (vulnerability assessment and remediation workflows), <strong>Hydra</strong> (credential testing), <strong>Wireshark</strong> (packet and protocol analysis), endpoint hardening/EDR tuning, threat modeling, secure configuration baselines, and clear technical/executive reporting.
                   </p>
                   <p>
-                    My technical portfolio includes developing <strong>G.E.N.G.A.R (Gage's Enhanced Next-Gen AI Responder)</strong>, a sophisticated AI-powered cybersecurity assistant that automates reconnaissance, network monitoring, and threat response operations. This project demonstrates my ability to bridge cutting-edge AI technology with practical security applications, showcasing innovation in security automation.
-                  </p>
-                  <p>
-                    As an active <strong>bug bounty hunter</strong> and security researcher, I've contributed to the broader security community through comprehensive CTF writeups, open-source security tools, and knowledge sharing. My GitHub repository features extensive collections of cybersecurity scripts, automation tools, and detailed technical documentation that support the security community's growth and development.
-                  </p>
-                  <p>
-                    I bring a threat-informed, strategic mindset to every engagement, combining executive leadership experience with hands-on technical expertise. Whether architecting enterprise security solutions, leading red team operations, or mentoring the next generation of security professionals, I maintain a forward-thinking approach grounded in practical expertise and continuous innovation.
+                    I bring a threat‑informed, outcome‑driven mindset to every engagement—combining leadership with deep technical execution to reduce risk, improve detection, and deliver resilient, well‑documented security outcomes.
                   </p>
                 </div>
               </div>
