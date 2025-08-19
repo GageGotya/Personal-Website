@@ -55,19 +55,22 @@ export default function Home() {
                 <h3 className="text-2xl font-semibold mb-4">On a Professional Note</h3>
                 <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300">
                   <p>
-                    With many years of hands-on experience in Tech and Cyber Security, I've built my career on a foundation of relentless curiosity, strategic problem-solving, and precision execution. My expertise spans both offensive and defensive security domains, with a deep focus on penetration testing, red team operations, and modern network defense strategies. I bring a threat-informed mindset to every engagement, driven to understand, outpace, and outsmart adversaries.
+                    As the <strong>Chief Information Officer (CIO) at Black Tower Consulting Group</strong>, I lead strategic cybersecurity initiatives and oversee enterprise security infrastructure. My role encompasses executive-level decision-making for security architecture, risk management, and technology investments, driving organizational resilience against evolving cyber threats.
                   </p>
                   <p>
-                    Throughout my professional journey, I've engineered secure and scalable network environments using VLAN segmentation, deployed hardened Next-Gen firewalls, and integrated virtual private networks along with Active Directory hardening to ensure maximum security.
+                    My expertise spans comprehensive offensive and defensive security operations, with specialized focus on <strong>penetration testing, red team operations, and ethical hacking</strong>. I've engineered secure enterprise environments using advanced network segmentation, Next-Gen firewall deployment, and Active Directory hardening, consistently achieving top-tier security postures for client organizations.
                   </p>
                   <p>
-                    For a personal project I've also developed a fully modular AI-driven assistant designed to automate reconnaissance, monitor network activity, manage VPN operations, and provide real-time threat response, bridging cutting-edge technology with practical cybersecurity defense.
+                    I maintain active engagement in the cybersecurity community as <strong>President of the CyberSec Club at Austin Community College</strong> and Captain of the CTF team, where I mentor emerging security professionals and lead competitive cybersecurity initiatives. My competitive achievements include consistent top 10% performance in monthly CTF competitions and participation in high-stakes events like the TryHackMe Hackfinity Battle.
                   </p>
                   <p>
-                    I consistently sharpen my skills through active participation in competitive cybersecurity events, most recently the TryHackMe Hackfinity Battle, where I assessed critical vulnerabilities in web exploitation, privilege escalation, OSINT, and real-time threat analysis under pressure. These experiences not only deepened my technical toolkit but also reinforced my adaptability and strategic thinking in dynamic threat environments.
+                    My technical portfolio includes developing <strong>G.E.N.G.A.R (Gage's Enhanced Next-Gen AI Responder)</strong>, a sophisticated AI-powered cybersecurity assistant that automates reconnaissance, network monitoring, and threat response operations. This project demonstrates my ability to bridge cutting-edge AI technology with practical security applications, showcasing innovation in security automation.
                   </p>
                   <p>
-                    Whether leading simulated breaches, automating security operations, or architecting layered defenses, I bring a forward-thinking approach grounded in practical expertise and a passion for continuous improvement. I don't just respond to threats, I prepare for them.
+                    As an active <strong>bug bounty hunter</strong> and security researcher, I've contributed to the broader security community through comprehensive CTF writeups, open-source security tools, and knowledge sharing. My GitHub repository features extensive collections of cybersecurity scripts, automation tools, and detailed technical documentation that support the security community's growth and development.
+                  </p>
+                  <p>
+                    I bring a threat-informed, strategic mindset to every engagement, combining executive leadership experience with hands-on technical expertise. Whether architecting enterprise security solutions, leading red team operations, or mentoring the next generation of security professionals, I maintain a forward-thinking approach grounded in practical expertise and continuous innovation.
                   </p>
                 </div>
               </div>
