@@ -93,23 +93,23 @@ export default function Home() {
                 <ul className="space-y-4 text-lg text-gray-600 dark:text-gray-300">
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-2">•</span>
-                    I was born and raised in Austin, Texas. Though Austin is home, I spend a lot of time in Colorado with family.
+                    I was born and raised in Austin, Texas. I currently live by the Domain and often enjoy the bars and entertainment offered in the area. You can also catch me at the Q2 stadium cheering on Austin FC from time to time.
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-2">•</span>
-                    I've always had a deep love for tech, sparked by my passion for gaming. Titles like God of War and CS:GO pulled me in early, and that curiosity naturally grew into a broader interest in software and emerging technology.
+                    I've always had a deep love for tech, sparked by my passion for gaming. Creating Mods and Scripts for games was my first introduction to programming and what was possible. I still ocassionally game when I have a chance and enjoy titles like Death Stranding and Fallout.
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-2">•</span>
-                    When I'm not diving into tech or gaming, you'll probably find me exploring new foodie spots around town, playing poker at local card houses, climbing, or skateboarding for fun and fitness.
+                    When I'm not diving into tech or gaming, you'll probably find me exploring new food spots around town, playing poker at local card houses, rock climbing at the greenbelt, or skateboarding for fun and fitness.
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-2">•</span>
-                    My latest interest is researching emerging A.I and Hologram tech.
+                    My latest interest is researching emerging A.I and securing MCP Servers. I also want to help progress whats possible with emerging hologram tech
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-2">•</span>
-                    Created a CTF section for a local Hackathon and helped judge the event.
+                    I have two cats that are my pride and joy. One is an orange boy named Maximus and the other is a white and black boy named Atlas.
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-2">•</span>
